@@ -1,7 +1,20 @@
-This is an assigment by coursera
+# Getting And Cleaning Data
 
-It was used by the final work of the subject "Getting and Cleaning DATA"
+This is a final activity of the course Getting and Cleaning Data. This repository contains the instructions on how to run analysis on Human Activity Recognition Dataset
 
-Dataset: Human Activity Recognition Using Smartphones
+# Dataset
 
-Files: CodeBook.md, run_analysis.R
+Human Activity Recognition Using Smartphones
+
+# Files
+
+CodeBook.- It describes the variables and how is working step by step
+
+run_analysis.R .- performs the data preparation and then followed by the 5 steps required as described in the course project’s definition:
+ Merges the training and the test sets to create one data set.
+ Extracts only the measurements on the mean and standard deviation for each measurement.
+ Uses descriptive activity names to name the activities in the data set
+ Appropriately labels the data set with descriptive variable names.
+ From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+FinalData.txt .- The last file where is contained the Data
